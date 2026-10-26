@@ -1,5 +1,5 @@
 # Pin tested Node patch; CI updates patch/digest through Dependabot.
-FROM node:22.23.4-alpine3.23 AS base
+FROM node:26.12.1-alpine3.23 AS base
 RUN corepack enable && corepack prepare pnpm@11.25.0 --activate
 WORKDIR /app
 FROM base AS dependencies
@@ -13,7 +13,7 @@ ARG NEXT_PUBLIC_INDEXABLE=false
 ARG NEXT_PUBLIC_TURNSTILE_SITE_KEY=""
 ENV NEXT_TELEMETRY_DISABLED=1 NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL NEXT_PUBLIC_INDEXABLE=$NEXT_PUBLIC_INDEXABLE NEXT_PUBLIC_TURNSTILE_SITE_KEY=$NEXT_PUBLIC_TURNSTILE_SITE_KEY
 RUN pnpm build:next
-FROM node:22.23.4-alpine3.23 AS runtime
+FROM node:26.12.1-alpine3.23 AS runtime
 WORKDIR /app
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0
 # Runtime needs Node only; remove unused package managers and their dependency trees.
