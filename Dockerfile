@@ -16,7 +16,10 @@ RUN pnpm build:next
 FROM node:22.23.4-alpine3.23 AS runtime
 WORKDIR /app
 ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1 PORT=3000 HOSTNAME=0.0.0.0
-RUN addgroup -S -g 1001 app && adduser -S -u 1001 -G app app
+# Runtime needs Node only; remove unused package managers and their dependency trees.
+RUN rm -rf /usr/local/lib/node_modules/npm /usr/local/lib/node_modules/corepack /opt/yarn* \
+    /usr/local/bin/npm /usr/local/bin/npx /usr/local/bin/corepack /usr/local/bin/yarn /usr/local/bin/yarnpkg \
+    && addgroup -S -g 1001 app && adduser -S -u 1001 -G app app
 COPY --from=build --chown=app:app /app/.next/standalone ./
 COPY --from=build --chown=app:app /app/.next/static ./.next/static
 COPY --from=build --chown=app:app /app/public ./public

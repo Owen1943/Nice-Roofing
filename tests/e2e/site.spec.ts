@@ -64,7 +64,9 @@ test("enquiry validation and unavailable fallback never fake success", async ({
     }),
   );
   await page.getByRole("button", { name: "Send enquiry" }).click();
-  await expect(page.getByRole("alert")).toContainText("unavailable");
+  await expect(page.locator(".enquiry-form").getByRole("alert")).toContainText(
+    "unavailable",
+  );
   await expect(
     page.getByRole("link", { name: "Continue on WhatsApp" }),
   ).toHaveAttribute("href", /wa.me\/94777173041/);
