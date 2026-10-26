@@ -1,0 +1,15 @@
+node_modules
+.next
+dist
+.git
+.env*
+!.env.example
+.wrangler
+.sites-runtime
+source-materials
+playwright-report
+test-results
+docs/qa
+*.zip
+*.tar.gz
+*.log

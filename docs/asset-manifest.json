@@ -1,0 +1,270 @@
+[
+  {
+    "id": "bungalow",
+    "source": "ai_enhanced/06_tropical_bungalow_exterior.png",
+    "crop": null,
+    "status": "illustrative",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "path": "images/bungalow-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 65432
+      },
+      {
+        "path": "images/bungalow-480.avif",
+        "width": 480,
+        "height": 360,
+        "bytes": 43307
+      },
+      {
+        "path": "images/bungalow-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 239032
+      },
+      {
+        "path": "images/bungalow-960.avif",
+        "width": 960,
+        "height": 720,
+        "bytes": 164346
+      },
+      {
+        "path": "images/bungalow-1440.webp",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 461064
+      },
+      {
+        "path": "images/bungalow-1440.avif",
+        "width": 1440,
+        "height": 1080,
+        "bytes": 305853
+      }
+    ],
+    "publicMaster": "/images/bungalow.webp",
+    "sha256": "1ef732f73a1b35ff5a940e1934d03635d3d0824e0fef82897a3f3c8c394d6e66"
+  },
+  {
+    "id": "charcoal-roof",
+    "source": "ai_enhanced/07_charcoal_tile_roof_detail.png",
+    "crop": null,
+    "status": "illustrative",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 1536,
+    "height": 1024,
+    "variants": [
+      {
+        "path": "images/charcoal-roof-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34456
+      },
+      {
+        "path": "images/charcoal-roof-480.avif",
+        "width": 480,
+        "height": 320,
+        "bytes": 24945
+      },
+      {
+        "path": "images/charcoal-roof-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 91178
+      },
+      {
+        "path": "images/charcoal-roof-960.avif",
+        "width": 960,
+        "height": 640,
+        "bytes": 67041
+      },
+      {
+        "path": "images/charcoal-roof-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 159382
+      },
+      {
+        "path": "images/charcoal-roof-1440.avif",
+        "width": 1440,
+        "height": 960,
+        "bytes": 119587
+      }
+    ],
+    "publicMaster": "/images/charcoal-roof.webp",
+    "sha256": "8a3eb14fb4eafcdb0c6f985da700423c144add0462773b372ecc72bfeb38bbe4"
+  },
+  {
+    "id": "clay-roof",
+    "source": "ai_enhanced/04_terracotta_roof_collage.png",
+    "crop": [0, 640, 610, 1254],
+    "status": "illustrative",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 610,
+    "height": 614,
+    "variants": [
+      {
+        "path": "images/clay-roof-480.webp",
+        "width": 480,
+        "height": 483,
+        "bytes": 48136
+      },
+      {
+        "path": "images/clay-roof-480.avif",
+        "width": 480,
+        "height": 483,
+        "bytes": 32182
+      }
+    ],
+    "publicMaster": "/images/clay-roof.webp",
+    "sha256": "1f3649f62011a1dcc4ddf5cfe6d0118710682ca5a6375cd32cfbf94d6bfeaa7c"
+  },
+  {
+    "id": "floor",
+    "source": "ai_enhanced/08_terracotta_products_poster.png",
+    "crop": [85, 430, 485, 560],
+    "status": "illustrative",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 400,
+    "height": 130,
+    "variants": [
+      {
+        "path": "images/floor-480.webp",
+        "width": 400,
+        "height": 130,
+        "bytes": 12870
+      },
+      {
+        "path": "images/floor-480.avif",
+        "width": 400,
+        "height": 130,
+        "bytes": 9280
+      }
+    ],
+    "publicMaster": "/images/floor.webp",
+    "sha256": "088cc2c8ee78f76f867c7e733361ff1ddbc834ee51015a352f046cec826fafcf"
+  },
+  {
+    "id": "clay-wall",
+    "source": "ai_enhanced/08_terracotta_products_poster.png",
+    "crop": [15, 290, 420, 485],
+    "status": "illustrative",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 405,
+    "height": 195,
+    "variants": [
+      {
+        "path": "images/clay-wall-480.webp",
+        "width": 405,
+        "height": 195,
+        "bytes": 20846
+      },
+      {
+        "path": "images/clay-wall-480.avif",
+        "width": 405,
+        "height": 195,
+        "bytes": 15133
+      }
+    ],
+    "publicMaster": "/images/clay-wall.webp",
+    "sha256": "fdf6fceb486242a5332a7fe3f0e0259b2f30e84712c6d5e38fea4f5d8375fbfa"
+  },
+  {
+    "id": "breeze-blocks",
+    "source": "ai_enhanced/08_terracotta_products_poster.png",
+    "crop": [175, 650, 615, 865],
+    "status": "illustrative",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 440,
+    "height": 215,
+    "variants": [
+      {
+        "path": "images/breeze-blocks-480.webp",
+        "width": 440,
+        "height": 215,
+        "bytes": 20638
+      },
+      {
+        "path": "images/breeze-blocks-480.avif",
+        "width": 440,
+        "height": 215,
+        "bytes": 13571
+      }
+    ],
+    "publicMaster": "/images/breeze-blocks.webp",
+    "sha256": "3b53e13ee942d519a6aa783e80b944ca625cde9bf5d5d007866aeb719d50111c"
+  },
+  {
+    "id": "courtyard",
+    "source": "ai_enhanced/01_terracotta_courtyard_banner.png",
+    "crop": [0, 0, 985, 887],
+    "status": "illustrative",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 985,
+    "height": 887,
+    "variants": [
+      {
+        "path": "images/courtyard-480.webp",
+        "width": 480,
+        "height": 432,
+        "bytes": 49558
+      },
+      {
+        "path": "images/courtyard-480.avif",
+        "width": 480,
+        "height": 432,
+        "bytes": 36369
+      },
+      {
+        "path": "images/courtyard-960.webp",
+        "width": 959,
+        "height": 864,
+        "bytes": 139362
+      },
+      {
+        "path": "images/courtyard-960.avif",
+        "width": 959,
+        "height": 864,
+        "bytes": 100052
+      }
+    ],
+    "publicMaster": "/images/courtyard.webp",
+    "sha256": "6a46e72b068a653987b409fca458adf908fec8a910f050ae22f270050e83d43d"
+  },
+  {
+    "id": "brand-logo",
+    "source": "source_screenshots/03_13-31-33.png",
+    "crop": [110, 75, 520, 370],
+    "status": "source-raster-logo",
+    "projectAttribution": false,
+    "publicationApproval": "pending owner review",
+    "width": 410,
+    "height": 295,
+    "variants": [
+      {
+        "path": "images/brand-logo-480.webp",
+        "width": 410,
+        "height": 295,
+        "bytes": 14096
+      },
+      {
+        "path": "images/brand-logo-480.avif",
+        "width": 410,
+        "height": 295,
+        "bytes": 18068
+      }
+    ],
+    "publicMaster": "/images/brand-logo.webp",
+    "sha256": "ff567991647be73464d937300720b2c7b2dadbde025a3e75a58156797caa9b25"
+  }
+]
